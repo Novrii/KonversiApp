@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
 public class PilihanSejarah extends AppCompatActivity {
 
@@ -16,8 +15,9 @@ public class PilihanSejarah extends AppCompatActivity {
     }
 
 
-    public void onPilihan(View view){
-        Intent i = new Intent(this, MenuSejarah.class);
+    public void onFahrenhert(View view){
+        Intent i = new Intent(this, SejarahFahreinhert.class);
+
         startActivity(i);
     }
 

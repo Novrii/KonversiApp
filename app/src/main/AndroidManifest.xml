@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MenuSejarah" />
+        <activity android:name=".SejarahFahreinhert" />
         <activity android:name=".MenuKonversi" />
         <activity android:name=".SejarahCelcius"/>
         <activity android:name=".PilihanSejarah"></activity>
