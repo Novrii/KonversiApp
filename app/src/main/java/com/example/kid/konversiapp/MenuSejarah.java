@@ -1,5 +1,6 @@
 package com.example.kid.konversiapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -11,7 +12,7 @@ public class MenuSejarah extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_sejarah);
 
-        gambar = (ImageView) findViewById(R.id.imageView);
-        gambar.setImageResource(R.drawable.man);
+
+
     }
 }

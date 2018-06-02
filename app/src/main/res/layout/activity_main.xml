@@ -7,27 +7,39 @@
     tools:context=".MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="39dp"
+        android:text="Konversi App"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/btnsejarah"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnsejarah"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="68dp"
         android:onClick="onSejarah"
         android:text="sejarah"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
         android:id="@+id/btnkonversi"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="48dp"
         android:onClick="onKonversi"
         android:text="konversi"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnsejarah" />
+
 
 </android.support.constraint.ConstraintLayout>

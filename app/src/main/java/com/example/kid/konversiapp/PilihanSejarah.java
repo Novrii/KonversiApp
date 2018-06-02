@@ -4,27 +4,25 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
-
+public class PilihanSejarah extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
+        setContentView(R.layout.activity_pilihan_sejarah);
 
     }
 
-    public void onSejarah (View view){
-        Intent i = new Intent(this, PilihanSejarah.class);
+
+    public void onPilihan(View view){
+        Intent i = new Intent(this, MenuSejarah.class);
         startActivity(i);
     }
 
-    public void onKonversi (View view){
-        Intent i = new Intent(this, MenuKonversi.class);
+    public void onCelcius(View view){
+        Intent i = new Intent(this, SejarahCelcius.class);
         startActivity(i);
     }
-
-
 }

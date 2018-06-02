@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".MenuSejarah" />
-        <activity android:name=".MenuKonversi"></activity>
+        <activity android:name=".MenuKonversi" />
+        <activity android:name=".SejarahCelcius"/>
+        <activity android:name=".PilihanSejarah"></activity>
     </application>
 
 </manifest>
