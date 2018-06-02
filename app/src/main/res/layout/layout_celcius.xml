@@ -13,7 +13,6 @@
         android:text="Sejarah Celcius"
         android:gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:textColor="black"
         android:textSize="20sp"
         />
     <ImageView

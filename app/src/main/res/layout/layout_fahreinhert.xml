@@ -10,10 +10,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sejarah Celcius"
+        android:text="Sejarah Fahreinhert"
         android:gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:textColor="black"
         android:textSize="20sp"
         />
     <ImageView
